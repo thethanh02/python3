@@ -1,4 +1,6 @@
-s1 = sorted(input().lower().split())
-s2 = sorted(input().lower().split())
-print(*sorted(set(s1).union(set((s2)))))
-print(*sorted(set(s1).intersection(set((s2)))))
+
+n = input()
+# while len(n) != 1:
+#     n = str(int(n[len(n)//2:]) + int(n[:len(n)//2]))
+#     print(n)
+print(n[0:len(n)])
