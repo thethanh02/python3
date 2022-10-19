@@ -20,11 +20,14 @@ class Point:
         
 
 t = int(input())
+arr = []
 for test in range(t):
-    arr = [float(x) for x in input().split()]
-    p1 = Point(arr[0], arr[1])
-    p2 = Point(arr[2], arr[3])
-    p3 = Point(arr[4], arr[5])
+    arr += [float(x) for x in input().split()]
+    
+for test in range(t):
+    p1 = Point(arr[0 + test*6], arr[1 + test*6])
+    p2 = Point(arr[2 + test*6], arr[3 + test*6])
+    p3 = Point(arr[4 + test*6], arr[5 + test*6])
     for i in arr:
         if abs(i) > 1000:
             print('INVALID')

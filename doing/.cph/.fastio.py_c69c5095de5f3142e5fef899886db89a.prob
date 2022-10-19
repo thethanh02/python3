@@ -1,0 +1,1 @@
+{"name":"Local: fastio","url":"/mnt/d/code/python3/doing/fastio.py","tests":[{"id":1665413249701,"input":"2313231321321312","output":"Time taken in Normal I / O: 4.990500019630417e-05\n\nTime taken in Fast I / O: 1.6129997675307095e-06"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/d/code/python3/doing/fastio.py","group":"local","local":true}

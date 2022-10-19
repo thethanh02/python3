@@ -8,9 +8,6 @@ class SinhVien:
         self.acceptedSubmit = acceptedSubmit
         self.totalSubmit = totalSubmit
 
-    def my_comp(a, b):
-        return cmp(a.name, b.name)
-
     def __gt__(self, a):
         if self.acceptedSubmit > a.acceptedSubmit:
             return 1

@@ -1,0 +1,1 @@
+{"name":"Local: PY04007","url":"/mnt/d/code/python3/doing/PY04007.py","tests":[{"id":1665452990350,"input":"1\n2 2\n1 2\n3 4","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/d/code/python3/doing/PY04007.py","group":"local","local":true}
