@@ -1,0 +1,1 @@
+{"name":"Local: 5","url":"/mnt/d/code/python3/ktra1/5.py","tests":[{"id":1666172860610,"input":"1\n8\n143 43 22 99 7 9 1111 10000000","output":"1111 10000000 22 143 43 7 9 99"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/d/code/python3/ktra1/5.py","group":"local","local":true}

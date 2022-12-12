@@ -1,0 +1,5 @@
+('Yamaha','(30.24)38855080','YamahaMotorJapan@gmail.com','NhatBan'),
+('Yamaha','(84.24)38855080','YamahaMotorVietNamCNVP@gmail.com','VietNam'),
+('Suzuki','(84.89)47435209','SuzukiMotorVietNam@gmail.com','VietNam'),
+('Honda','(84.2)18943170','HondaMotorVietNam@gmail.com','VietNam'),
+('Honda','(30.2)18943170','HondaMotorJapan@gmail.com','NhatBan')

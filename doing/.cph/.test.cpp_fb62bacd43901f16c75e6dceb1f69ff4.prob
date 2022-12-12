@@ -1,0 +1,1 @@
+{"name":"Local: test","url":"/mnt/d/code/python3/doing/test.cpp","tests":[{"id":1670123321132,"input":"20312\n0","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/d/code/python3/doing/test.cpp","group":"local","local":true}

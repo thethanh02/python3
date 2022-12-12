@@ -1,0 +1,1 @@
+{"name":"Local: 4","url":"/mnt/d/code/python3/ktra1/4.py","tests":[{"id":1666172492883,"input":"2\nab BB aa Bc da\nbB BC ca cd\ntin hoc Co so 2 \n2 Tin chi","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/d/code/python3/ktra1/4.py","group":"local","local":true}

@@ -1,1 +1,1 @@
-{"name":"Local: draft","url":"/mnt/d/code/python3/doing/draft.py","tests":[{"id":1665571063466,"input":"10\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/d/code/python3/doing/draft.py","group":"local","local":true}
+{"name":"Local: draft","url":"/mnt/d/code/python3/doing/draft.py","tests":[{"id":1665571063466,"input":"10.5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/mnt/d/code/python3/doing/draft.py","group":"local","local":true}
