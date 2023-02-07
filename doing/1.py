@@ -1,42 +1,18 @@
-insert into NhanVien (id_NV, TenNV, NamSinh, GioiTinh, DiaChi, SDT, VaiTro, Luong) values
-('NV01', N'Nguyễn Duy Anh', '1999-12-11', 'Nam', '0902346712', 'TPHCM', 'Nhanvien', 7000000),
-('NV02', N'Nguyễn Trung Dĩ', '1999-10-30', 'Nam', '0902125687', 'TPHCM', 'Nhanvien', 8000000),
-('NV03', N'Lâm Khánh Duy', '1999-07-26', 'Nam', '0902459811', 'TPHCM', 'Nhanvien', 9000000),
-('NV04', N'Lê Nhật Duy', '1999-05-21', 'Nam', '0902334512', 'TPHCM', 'Nhanvien', 9000000),
-('NV05', N'Nguyễn Hoàng Duy', '1999-06-29', 'Nam', '0902125433', 'TPHCM', 'Nhanvien', 8000000),
-('NV06', N'Phan Hoàng Đức', '1999-11-10', 'Nam', '0902445566', 'TPHCM', 'Nhanvien', 7000000),
-('NV07', N'Bùi Tấn Đạt', '1999-01-03', 'Nam', '0902125454', 'TPHCM', 'Nhanvien', 6000000),
-('NV08', N'Võ Văn Đạt', '1999-02-18', 'Nam', '0902334333', 'TPHCM', 'Nhanvien', 6000000),
-('NV09', N'Bùi Thành Đạt', '1999-12-05', 'Nam', '0902998723', 'TPHCM', 'Nhanvien', 7000000),
-('NV10', N'Võ Chung Đạt', '1999-05-19', 'Nam', '0902001932', 'TPHCM', 'Nhanvien', 8000000),
-('NV11', N'Trần Văn Hậu', '1999-11-30', 'Nam', '0902434355', 'TPHCM', 'Nhanvien', 9000000),
-('NV12', N'Nguyễn Thành Lộc', '1999-04-15', 'Nam', '0902321132', 'TPHCM', 'Nhanvien', 9000000),
-('NV13', N'Nguyễn Trọng Nghĩa', '1999-10-09', 'Nam', '0902124354', 'TPHCM', 'Nhanvien', 8000000),
-('NV14', N'Phùng Thanh Phong', '1999-02-23', 'Nam', '0902992212', 'TPHCM', 'Nhanvien', 7000000),
-('NV15', N'Nguyễn Hồng Phúc', '1999-09-18', 'Nam', '0902003476', 'TPHCM', 'Nhanvien', 6000000),
-('NV16', N'Nguyễn Phú Qúy', '1999-03-07', 'Nam', '0902124543', 'TPHCM', 'Nhanvien', 9000000),
-('NV17', N'ĐoàN Thanh Tân', '1999-12-10', 'Nam', '0902989476', 'TPHCM', 'Nhanvien', 8000000),
-('NV18', N'Lê Hoàng Thành', '1999-11-21', 'Nam', '0902559923', 'TPHCM', 'Nhanvien', 7000000),
-('NV19', N'Trần Quốc Triệu', '1999-05-21', 'Nam', '0902224455', 'TPHCM', 'Nhanvien', 7000000),
-('NV20', N'Nguyễn Hoàng Tú', '1999-12-07', 'Nam', '0902431243', 'TPHCM', 'Nhanvien', 6000000),
-('NV21', N'Đặng Hoàng An', '1999-10-14', 'Nam', '0902543212', 'TPHCM', 'Nhanvien', 7000000),
-('NV22', N'Trương Gia Bảo', '1999-02-11', 'Nam', '0902231243', 'TPHCM', 'Nhanvien', 6000000),
-('NV23', N'Nguyễn Thanh Hà', '1999-10-01', 'Nam', '0902098784', 'TPHCM', 'Nhanvien', 9000000),
-('NV24', N'Phạm Hoàng Đức', '1999-04-30', 'Nam', '0902214354', 'TPHCM', 'Nhanvien', 9000000),
-('NV25', N'Nguyễn Quốc Hiếu', '1999-01-01', 'Nam', '0902433322', 'TPHCM', 'Nhanvien', 7000000),
-('NV26', N'Nguyễn Nhất Huy', '1999-05-11', 'Nam', '0902998843', 'TPHCM', 'Nhanvien', 8000000),
-('NV27', N'Hà Duy Khang', '1999-07-16', 'Nam', '0902431211', 'TPHCM', 'Nhanvien', 6000000),
-('NV28', N'Trần Trung Kiên', '1999-12-25', 'Nam', '0902325411', 'TPHCM', 'Nhanvien', 7000000),
-('NV29', N'Phan Quốc Kiệt', '1999-11-20', 'Nam', '0902989054', 'TPHCM', 'Nhanvien', 8000000),
-('NV30', N'Trần Thanh Liêm', '1999-08-26', 'Nam', '0902553421', 'TPHCM', 'Nhanvien', 9000000),
-('NV31', N'Chung Tấn Lợi', '1999-09-15', 'Nam', '0902430909', 'TPHCM', 'Nhanvien', 6000000),
-('NV32', N'Bùi Nhật Anh', '1999-05-25', 'Nam', '0902430989', 'TPHCM', 'Nhanvien', 9000000),
-('NV33', N'Ngô Hoàng Phong', '1999-04-01', 'Nam', '0902431205', 'TPHCM', 'Nhanvien', 7000000),
-('NV34', N'Nguyễn Thiên Long', '1999-11-22', 'Nam', '0902774412', 'TPHCM', 'Nhanvien', 6000000),
-('NV35', N'Lê Tuấn Anh', '1999-12-29', 'Nam', '0902439090', 'TPHCM', 'Nhanvien', 8000000),
-('NV36', N'Hoàng Xuân Bảo', '1999-06-26', 'Nam', '0902431123', 'TPHCM', 'Nhanvien', 9000000),
-('NV37', N'Phạm Minh Bảo', '1999-09-18', 'Nam', '0902439855', 'TPHCM', 'Nhanvien', 8000000),
-('NV38', N'Nguyễn Hoàng Nam', '1999-12-22', 'Nam', '0902120944', 'TPHCM', 'Nhanvien', 9000000),
-('NV39', N'Nguyễn Minh Chiến', '1999-01-13', 'Nam', '0902430904', 'TPHCM', 'Nhanvien', 7000000),
-('NV40', N'Phạm Quốc Chính', '1999-02-07', 'Nam', '0902321211', 'TPHCM', 'Nhanvien', 6000000)
-GO
+import datetime
+import unittest
+
+def NextDate(date_string):
+    date = datetime.datetime.strptime(date_string, '%d/%m/%Y')
+    date += datetime.timedelta(days=1)
+    return date.strftime('%d/%m/%Y')
+
+class TestNextDate(unittest.TestCase):
+    def test_normaldate(self):
+        self.assertEqual(NextDate("01/01/2023"), "02/01/2023")
+    def test_lastdayofmonth(self):
+        self.assertEqual(NextDate("28/02/2002"), "01/03/2002")
+    def test_lastdayofyear(self):
+        self.assertEqual(NextDate("31/12/2020"), "01/01/2021")
+
+suite = unittest.TestLoader().loadTestsFromTestCase(TestNextDate)
+unittest.TextTestRunner(verbosity=2).run(suite)

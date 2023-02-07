@@ -1,15 +1,35 @@
-import tkinter as tk
+import math
 
-root = tk.Tk()
-root.title('Pack Demo')
-root.geometry("350x200")
 
-# box 1
-box1 = tk.Label(root, text="Box 1", bg="green", fg="white")
-box1.pack()
+n = int(input())
+num =  int(math.sqrt(n)) + 1
+# sang
+f = [1] * num
+L = []
+f[0] = 0
+f[1] = 0
 
-# box 2
-box2 = tk.Label(root, text="Box 2", bg="red", fg="white")
-box2.pack()
+for i in range(2, num):
+    if f[i] == 0:
+        continue
+    L.append(i)
+    for j in range(i * i, num, i):
+        f[j] = 0
 
-root.mainloop()
+
+res = 0
+for i in L:
+    tmp = i ** 8
+    if tmp > n:
+        break
+    res += 1
+
+for i in range(len(L)):
+    if i ** 2 > n: break
+    for j in range(i + 1, len(L)):
+        if (L[i] * L[j]) ** 2 <= n:
+            res += 1
+        else:
+            break
+
+print(res)
